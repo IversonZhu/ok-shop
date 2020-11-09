@@ -1,12 +1,11 @@
 package com.okman.service.goods;
 
-import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class OkShopServiceGoodsApplicationTests {
 
-    @Test
+//    @Test
     void contextLoads() {
     }
 

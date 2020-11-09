@@ -21,12 +21,17 @@
             <artifactId>ok-shop-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-        <!--通用mapper起步依赖-->
         <dependency>
-            <groupId>tk.mybatis</groupId>
-            <artifactId>mapper-spring-boot-starter</artifactId>
-            <version>2.0.4</version>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.4.0</version>
         </dependency>
+        <!--通用mapper起步依赖-->
+<!--        <dependency>-->
+<!--            <groupId>tk.mybatis</groupId>-->
+<!--            <artifactId>mapper-spring-boot-starter</artifactId>-->
+<!--            <version>2.0.4</version>-->
+<!--        </dependency>-->
         <!--MySQL数据库驱动-->
         <dependency>
             <groupId>mysql</groupId>
@@ -36,7 +41,7 @@
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper-spring-boot-starter</artifactId>
-            <version>1.2.3</version>
+            <version>1.2.5</version>
         </dependency>
     </dependencies>
 </project>
