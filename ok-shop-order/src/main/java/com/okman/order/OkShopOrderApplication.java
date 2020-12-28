@@ -1,13 +1,13 @@
-package com.okman.transaction.fescar;
+package com.okman.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OkShopTransactionFescarApplication {
+public class OkShopOrderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OkShopTransactionFescarApplication.class, args);
+        SpringApplication.run(OkShopOrderApplication.class, args);
     }
 
 }
