@@ -7,8 +7,6 @@
         <artifactId>ok-shop</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
-    <groupId>com.okman</groupId>
     <artifactId>ok-shop-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ok-shop-common</name>
