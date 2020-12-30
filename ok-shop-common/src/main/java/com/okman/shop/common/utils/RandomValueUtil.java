@@ -1,10 +1,13 @@
 package com.okman.shop.common.utils;
 
 /**
+ * <p>
+ * 随机值工具
+ * </p>
+ *
  * @Author Iverson
  * @Description 功能说明：随机值工具
  * @Date 2020/11/9 15:15
- * @Copyright © 2020 深圳桑达商用机器有限公司 All rights reserved
  */
 public class RandomValueUtil {
     public static String base = "abcdefghijklmnopqrstuvwxyz0123456789";

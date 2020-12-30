@@ -4,6 +4,10 @@ import java.io.UnsupportedEncodingException;
 import java.util.Random;
 
 /**
+ * <p>
+ *     随机中文工具
+ * </p>
+ *
  * @Author Iverson
  * @Description 功能说明：随机中文工具
  * @Date 2020/11/9 15:15
