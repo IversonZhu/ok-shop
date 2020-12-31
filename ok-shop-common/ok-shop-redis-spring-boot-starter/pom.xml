@@ -10,7 +10,7 @@
     <artifactId>ok-shop-redis-spring-boot-starter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ok-shop-redis-spring-boot-starter</name>
-    <description>Demo project for Spring Boot</description>
+    <description>redis通用组件</description>
     <packaging>jar</packaging>
 
     <properties>

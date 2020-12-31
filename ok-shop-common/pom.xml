@@ -19,7 +19,7 @@
         <module>ok-shop-db-spring-boot-starter</module>
         <module>ok-shop-swagger2-spring-boot-starter</module>
 <!--        <module>mall-log-spring-boot-starter</module>-->
-<!--        <module>mall-ribbon-spring-boot-starter</module>-->
+        <module>ok-shop-ribbon-spring-boot-starter</module>
 <!--        <module>mall-auth-client-spring-boot-starter</module>-->
         <module>ok-shop-sentinel-spring-boot-starter</module>
     </modules>

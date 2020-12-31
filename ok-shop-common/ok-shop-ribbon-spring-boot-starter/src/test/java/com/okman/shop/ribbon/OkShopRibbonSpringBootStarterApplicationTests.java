@@ -1,13 +1,12 @@
-package com.okman.shop.sentinel;
+package com.okman.shop.ribbon;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OkShopSentinelSpringBootStarterApplicationTests {
+class OkShopRibbonSpringBootStarterApplicationTests {
 
     @Test
-    void contextLoads() {
-    }
+    void contextLoads() {}
 
 }

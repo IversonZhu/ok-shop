@@ -104,11 +104,11 @@
                 <artifactId>ok-shop-swagger2-spring-boot-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
-            <!--            <dependency>-->
-            <!--                <groupId>com.okman</groupId>-->
-            <!--                <artifactId>mall-ribbon-spring-boot-starter</artifactId>-->
-            <!--                <version>${project.version}</version>-->
-            <!--            </dependency>-->
+            <dependency>
+                <groupId>com.okman</groupId>
+                <artifactId>ok-shop-ribbon-spring-boot-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <!--            <dependency>-->
             <!--                <groupId>com.okman</groupId>-->
             <!--                <artifactId>mall-auth-client-spring-boot-starter</artifactId>-->
