@@ -7,10 +7,10 @@
         <artifactId>ok-shop</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.okman</groupId>
     <artifactId>ok-shop-auth</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ok-shop-auth</name>
+    <packaging>jar</packaging>
     <description>认证中心</description>
 
     <properties>

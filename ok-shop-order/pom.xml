@@ -10,6 +10,7 @@
     <artifactId>ok-shop-order</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ok-shop-order</name>
+    <packaging>pom</packaging>
     <description>订单管理模块</description>
 
     <properties>

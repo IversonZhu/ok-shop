@@ -11,6 +11,7 @@
     <artifactId>ok-shop-good</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ok-shop-good</name>
+    <packaging>pom</packaging>
     <description>商品管理模块</description>
 
     <properties>

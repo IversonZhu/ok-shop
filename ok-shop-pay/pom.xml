@@ -10,7 +10,8 @@
     <artifactId>ok-shop-pay</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ok-shop-pay</name>
-    <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
+    <description>支付管理模块</description>
 
     <properties>
         <java.version>1.8</java.version>

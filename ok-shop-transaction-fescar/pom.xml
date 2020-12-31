@@ -11,6 +11,7 @@
     <artifactId>ok-shop-transaction-fescar</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ok-shop-transaction-fescar</name>
+    <packaging>jar</packaging>
     <description>分布式事务管理（fescar）</description>
 
     <properties>
