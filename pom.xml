@@ -2,15 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.4.RELEASE</version>
-    </parent>
-
     <groupId>com.okman</groupId>
     <artifactId>ok-shop</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>ok-shop</name>
     <description>ok-shop项目的父级依赖</description>
 
@@ -43,13 +38,13 @@
         <velocity.version>1.7</velocity.version>
         <commons-configuration.version>1.10</commons-configuration.version>
         <txlcn.version>5.0.2.RELEASE</txlcn.version>
-        <platform-bom>Cairo-SR3</platform-bom>
+        <platform-bom>Cairo-SR7</platform-bom>
         <spring-cloud-alibaba-dependencies.version>0.2.1.RELEASE</spring-cloud-alibaba-dependencies.version>
-        <spring-boot-dependencies.version>2.0.8.RELEASE</spring-boot-dependencies.version>
-        <spring-cloud-dependencies.version>Finchley.SR3</spring-cloud-dependencies.version>
+        <spring-boot-dependencies.version>2.0.4.RELEASE</spring-boot-dependencies.version>
+        <spring-cloud-dependencies.version>Finchley.SR4</spring-cloud-dependencies.version>
         <spring-boot-maven-plugin.version>2.1.1.RELEASE</spring-boot-maven-plugin.version>
         <docker-maven-plugin.version>1.2.0</docker-maven-plugin.version>
-        <sonar.exclusions>mall-job/**/*, mall-register/**/*, mall-web/**/*</sonar.exclusions>
+        <sonar.exclusions>mall-job/**/*, ok-shop-register/**/*, mall-web/**/*</sonar.exclusions>
         <docker.baseImage>openjdk:8-jre-alpine</docker.baseImage>
         <docker.volumes>/tmp</docker.volumes>
         <docker.image.prefix>hub.mall.com:8080/mallcloud</docker.image.prefix>
