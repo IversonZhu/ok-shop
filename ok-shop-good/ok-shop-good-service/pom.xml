@@ -17,11 +17,7 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.okman</groupId>
-            <artifactId>ok-shop-common-db</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+
     </dependencies>
 
     <build>
