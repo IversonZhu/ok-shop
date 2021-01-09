@@ -23,7 +23,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SysOauthClientDetails extends Model<SysOauthClientDetails> {
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 2967163999557858045L;
 
     /**
      * 客户端ID

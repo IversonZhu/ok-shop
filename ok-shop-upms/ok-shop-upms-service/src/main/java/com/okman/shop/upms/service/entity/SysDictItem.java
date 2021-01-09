@@ -23,7 +23,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SysDictItem extends Model<SysDictItem> {
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 7214798908178808649L;
 
     /**
      * 编号

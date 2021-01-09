@@ -23,7 +23,7 @@ import lombok.Data;
 @Data
 public class SysUser implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = -3759143266250804214L;
 
     /**
      * 主键ID

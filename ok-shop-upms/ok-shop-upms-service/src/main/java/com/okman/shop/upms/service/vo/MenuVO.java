@@ -16,7 +16,7 @@ import lombok.Data;
 @Data
 public class MenuVO implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 5155804095842935811L;
 
     /**
      * 菜单ID

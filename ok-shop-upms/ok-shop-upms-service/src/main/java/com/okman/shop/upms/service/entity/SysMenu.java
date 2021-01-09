@@ -40,7 +40,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SysMenu extends Model<SysMenu> {
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 8457791571888342534L;
 
     /**
      * 菜单ID

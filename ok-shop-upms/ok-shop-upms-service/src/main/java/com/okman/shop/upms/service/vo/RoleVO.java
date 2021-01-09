@@ -9,7 +9,9 @@ import lombok.Data;
  */
 @Data
 @ApiModel(value = "前端角色展示对象")
-public class RoleVo {
+public class RoleVO {
+
+    private static final long serialVersionUID = 2012373377156456092L;
 
     /**
      * 角色id

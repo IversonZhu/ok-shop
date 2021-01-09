@@ -26,7 +26,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SysDept extends Model<SysDept> {
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = -355745269250804072L;
 
     @TableId(value = "dept_id", type = IdType.AUTO)
     @ApiModelProperty(value = "部门id")

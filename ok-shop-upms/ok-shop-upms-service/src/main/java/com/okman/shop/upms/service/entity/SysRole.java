@@ -26,7 +26,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SysRole extends Model<SysRole> {
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1971079415193592777L;
 
     @TableId(value = "role_id", type = IdType.AUTO)
     @ApiModelProperty(value = "角色编号")

@@ -12,4 +12,4 @@ import com.okman.shop.upms.service.entity.SysUser;
  * @Description 功能说明：
  * @Date 2021/1/8 16:44
  */
-public interface UserService extends IService<SysUser> {}
+public interface SysUserService extends IService<SysUser> {}

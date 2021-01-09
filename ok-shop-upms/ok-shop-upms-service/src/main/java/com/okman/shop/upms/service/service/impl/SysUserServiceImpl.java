@@ -3,7 +3,7 @@ package com.okman.shop.upms.service.service.impl;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.okman.shop.upms.service.entity.SysUser;
 import com.okman.shop.upms.service.mapper.SysUserMapper;
-import com.okman.shop.upms.service.service.UserService;
+import com.okman.shop.upms.service.service.SysUserService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,4 +16,5 @@ import org.springframework.stereotype.Service;
  * @Date 2021/1/8 16:44
  */
 @Service
-public class UserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> implements UserService {}
+public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> implements SysUserService {
+}

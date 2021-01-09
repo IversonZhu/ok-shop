@@ -24,7 +24,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SysDict extends Model<SysDict> {
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = -2265328053290082883L;
 
     /**
      * 编号

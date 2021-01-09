@@ -15,7 +15,7 @@ import lombok.Data;
 @Data
 public class UserVO implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 2012373377156456091L;
 
     /**
      * 主键ID

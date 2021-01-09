@@ -19,7 +19,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SysRoleMenu extends Model<SysRoleMenu> {
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 4568054117794838055L;
 
     /**
      * 角色ID

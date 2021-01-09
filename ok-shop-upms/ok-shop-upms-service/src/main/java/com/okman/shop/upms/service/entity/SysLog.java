@@ -26,7 +26,7 @@ import lombok.Data;
 @Data
 public class SysLog implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 3374746671200695779L;
 
     /**
      * 编号
