@@ -14,16 +14,21 @@
 
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.okman</groupId>
+            <artifactId>ok-shop-common-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.okman</groupId>
+            <artifactId>ok-shop-feign-spring-boot-starter</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.okman</groupId>
+            <artifactId>ok-shop-upms-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

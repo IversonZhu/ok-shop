@@ -11,11 +11,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>ok-shop-auth</name>
     <packaging>jar</packaging>
-    <description>认证中心</description>
-
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
+    <description>认证授权中心</description>
 
     <dependencies>
         <dependency>
@@ -46,6 +42,10 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>io.fabric8</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>

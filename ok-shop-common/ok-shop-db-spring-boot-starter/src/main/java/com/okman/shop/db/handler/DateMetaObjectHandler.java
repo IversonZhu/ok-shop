@@ -1,4 +1,4 @@
-package com.okman.shop.db.config;
+package com.okman.shop.db.handler;
 
 import org.apache.ibatis.reflection.MetaObject;
 

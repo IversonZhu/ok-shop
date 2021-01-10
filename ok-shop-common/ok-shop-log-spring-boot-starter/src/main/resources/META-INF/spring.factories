@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.okman.shop.log.config.LogAutoConfiguration
+org.springframework.context.ApplicationContextInitializer=\
+    com.okman.shop.log.init.ApplicationLoggerInitializer

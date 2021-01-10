@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.okman</groupId>
+        <artifactId>ok-shop-common</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <artifactId>ok-shop-log-spring-boot-starter</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>ok-shop-log-spring-boot-starter</name>
+    <description>日志通用组件</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.okman</groupId>
+            <artifactId>ok-shop-common-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.okman</groupId>
+            <artifactId>ok-shop-upms-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.okman</groupId>
+            <artifactId>ok-shop-upms-facade</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!--安全依赖获取上下文信息-->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security.oauth</groupId>
+            <artifactId>spring-security-oauth2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+        </dependency>
+    </dependencies>
+</project>
