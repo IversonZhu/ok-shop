@@ -14,12 +14,12 @@ public interface CacheConstants {
     /**
      * oauth 缓存前缀
      */
-    String PROJECT_OAUTH_ACCESS = "pig_oauth:access:";
+    String PROJECT_OAUTH_ACCESS = "OK_SHOP_OAUTH:ACCESS:";
 
     /**
      * oauth 缓存令牌前缀
      */
-    String PROJECT_OAUTH_TOKEN = "pig_oauth:token:";
+    String PROJECT_OAUTH_TOKEN = "OK_SHOP_OAUTH:TOKEN:";
 
     /**
      * 验证码前缀
@@ -29,25 +29,25 @@ public interface CacheConstants {
     /**
      * 菜单信息缓存
      */
-    String MENU_DETAILS = "menu_details";
+    String MENU_DETAILS = "MENU_DETAILS";
 
     /**
      * 用户信息缓存
      */
-    String USER_DETAILS = "user_details";
+    String USER_DETAILS = "USER_DETAILS";
 
     /**
      * 字典信息缓存
      */
-    String DICT_DETAILS = "dict_details";
+    String DICT_DETAILS = "DICT_DETAILS";
 
     /**
      * oauth 客户端信息
      */
-    String CLIENT_DETAILS_KEY = "pig_oauth:client:details";
+    String CLIENT_DETAILS_KEY = "OK_SHOP_OAUTH:CLIENT:DETAILS";
 
     /**
      * 参数缓存
      */
-    String PARAMS_DETAILS = "params_details";
+    String PARAMS_DETAILS = "PARAMS_DETAILS";
 }

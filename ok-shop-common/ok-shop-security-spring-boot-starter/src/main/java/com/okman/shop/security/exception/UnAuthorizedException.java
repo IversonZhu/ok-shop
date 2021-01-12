@@ -16,8 +16,7 @@ import org.springframework.http.HttpStatus;
 @JsonSerialize(using = OkManAuth2ExceptionSerializer.class)
 public class UnAuthorizedException extends OkManAuth2Exception {
 
-
-    public UnAuthorizedException(String msg) {
+    public UnAuthorizedException(String msg, Throwable t) {
         super(msg);
     }
 

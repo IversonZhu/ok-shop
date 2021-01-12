@@ -19,6 +19,7 @@ import lombok.Getter;
  */
 public class OkManUserDto extends User {
 
+    private static final long serialVersionUID = 1623082255119872853L;
     /**
      * 用户ID
      */

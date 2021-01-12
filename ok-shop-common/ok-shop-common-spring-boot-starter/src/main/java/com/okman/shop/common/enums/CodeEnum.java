@@ -10,7 +10,7 @@ package com.okman.shop.common.enums;
  * @Date 2020/12/30 17:21
  */
 public enum CodeEnum {
-    SUCCESS(200),
+    SUCCESS(0),
     ERROR(1);
 
     private Integer code;

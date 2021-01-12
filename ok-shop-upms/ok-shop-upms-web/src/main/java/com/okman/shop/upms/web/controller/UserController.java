@@ -33,7 +33,7 @@ public class UserController {
      *
      * @return 用户信息
      */
-    @GetMapping(value = {"/info"})
+    @GetMapping("/info")
     public Result info() {
         return null;
     }
@@ -45,12 +45,12 @@ public class UserController {
      * @return
      */
     @GetMapping("/info/{username}")
-    public Result info(@PathVariable String username) {
+    public Result<SysUser> info(@PathVariable String username) {
         SysUser user = userService.getOne(Wrappers.<SysUser>query().lambda().eq(SysUser::getUsername, username));
         if (user == null) {
             return Result.failed("用户信息为空");
         }
-        return Result.succeed(user);
+        return null;
     }
 
     /**
@@ -61,7 +61,7 @@ public class UserController {
      */
     @GetMapping("/{id}")
     public Result user(@PathVariable Integer id) {
-        return Result.succeed(userService.getById(id));
+        return null;
     }
 
 

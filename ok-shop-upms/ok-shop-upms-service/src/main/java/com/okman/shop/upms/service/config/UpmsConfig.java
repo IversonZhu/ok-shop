@@ -16,4 +16,4 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @EnableTransactionManagement
 @MapperScan("com.okman.shop.upms.service.mapper")
-public class MyBatisPlusConfig {}
+public class UpmsConfig {}

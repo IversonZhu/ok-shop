@@ -17,7 +17,7 @@ import org.springframework.http.HttpStatus;
 public class InvalidException extends OkManAuth2Exception {
 
 
-    public InvalidException(String msg) {
+    public InvalidException(String msg, Throwable t) {
         super(msg);
     }
 

@@ -17,7 +17,7 @@ import org.springframework.http.HttpStatus;
 public class ForbiddenException extends OkManAuth2Exception {
 
 
-    public ForbiddenException(String msg) {
+    public ForbiddenException(String msg, Throwable t) {
         super(msg);
     }
 

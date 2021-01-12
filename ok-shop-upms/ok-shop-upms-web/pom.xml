@@ -12,8 +12,6 @@
     <name>ok-shop-upms-web</name>
     <description>权限管理模块web服务</description>
 
-
-
     <dependencies>
         <dependency>
             <groupId>com.okman</groupId>
@@ -21,12 +19,12 @@
         </dependency>
         <dependency>
             <groupId>com.okman</groupId>
-            <artifactId>ok-shop-upms-service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <artifactId>ok-shop-common-spring-boot-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>com.okman</groupId>
-            <artifactId>ok-shop-common-spring-boot-starter</artifactId>
+            <artifactId>ok-shop-upms-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba.cloud</groupId>

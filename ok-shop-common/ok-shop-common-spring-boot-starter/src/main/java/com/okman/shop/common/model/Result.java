@@ -26,30 +26,38 @@ public class Result<T> implements Serializable {
     private String msg;
 
     public static <T> Result<T> succeed(String msg) {
-        return succeedWith(null, CodeEnum.SUCCESS.getCode(), msg);
+        return restResult(null, CodeEnum.SUCCESS.getCode(), msg);
     }
 
-    public static <T> Result<T> succeed(T model, String msg) {
-        return succeedWith(model, CodeEnum.SUCCESS.getCode(), msg);
+    public static <T> Result<T> succeed(T data, String msg) {
+        return restResult(data, CodeEnum.SUCCESS.getCode(), msg);
     }
 
-    public static <T> Result<T> succeed(T model) {
-        return succeedWith(model, CodeEnum.SUCCESS.getCode(), "");
+    public static <T> Result<T> succeed(T data) {
+        return restResult(data, CodeEnum.SUCCESS.getCode(), null);
     }
 
-    public static <T> Result<T> succeedWith(T datas, Integer code, String msg) {
-        return new Result<>(datas, code, msg);
+    public static <T> Result<T> failed() {
+        return restResult(null, CodeEnum.ERROR.getCode(), null);
     }
 
     public static <T> Result<T> failed(String msg) {
-        return failedWith(null, CodeEnum.ERROR.getCode(), msg);
+        return restResult(null, CodeEnum.ERROR.getCode(), msg);
     }
 
-    public static <T> Result<T> failed(T model, String msg) {
-        return failedWith(model, CodeEnum.ERROR.getCode(), msg);
+    public static <T> Result<T> failed(T data) {
+        return restResult(data, CodeEnum.ERROR.getCode(), null);
     }
 
-    public static <T> Result<T> failedWith(T datas, Integer code, String msg) {
-        return new Result<>(datas, code, msg);
+    public static <T> Result<T> failed(T data, String msg) {
+        return restResult(data, CodeEnum.ERROR.getCode(), msg);
+    }
+
+    private static <T> Result<T> restResult(T data, int code, String msg) {
+        Result<T> apiResult = new Result<>();
+        apiResult.setCode(code);
+        apiResult.setData(data);
+        apiResult.setMsg(msg);
+        return apiResult;
     }
 }

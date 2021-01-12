@@ -11,7 +11,7 @@ import java.io.IOException;
 
 /**
  * <p>
- * PigAuth2ExceptionSerializer
+ * OkManAuth2ExceptionSerializer
  * </p>
  *
  * @Author Iverson.Z
@@ -19,6 +19,8 @@ import java.io.IOException;
  * @Date 2021/1/10 13:38
  */
 public class OkManAuth2ExceptionSerializer extends StdSerializer<OkManAuth2Exception> {
+
+    private static final long serialVersionUID = 8405636629346934448L;
 
     public OkManAuth2ExceptionSerializer() {
         super(OkManAuth2Exception.class);

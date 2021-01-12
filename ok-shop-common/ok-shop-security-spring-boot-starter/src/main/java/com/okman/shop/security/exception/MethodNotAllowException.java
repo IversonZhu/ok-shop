@@ -16,8 +16,7 @@ import org.springframework.http.HttpStatus;
 @JsonSerialize(using = OkManAuth2ExceptionSerializer.class)
 public class MethodNotAllowException extends OkManAuth2Exception {
 
-
-    public MethodNotAllowException(String msg) {
+    public MethodNotAllowException(String msg, Throwable t) {
         super(msg);
     }
 

@@ -16,8 +16,7 @@ import org.springframework.http.HttpStatus;
 @JsonSerialize(using = OkManAuth2ExceptionSerializer.class)
 public class ServerErrorException extends OkManAuth2Exception {
 
-
-    public ServerErrorException(String msg) {
+    public ServerErrorException(String msg, Throwable t) {
         super(msg);
     }
 

@@ -19,7 +19,7 @@ public interface SysConstants {
     /**
      * 前缀
      */
-    String PROJECT_PREFIX = "OKMAN_";
+    String PROJECT_PREFIX = "OK_SHOP_";
 
     /**
      * 项目的license
