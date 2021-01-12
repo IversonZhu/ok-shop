@@ -14,9 +14,7 @@
     <description>支付管理模块</description>
 
     <modules>
-        <module>ok-shop-pay-api</module>
         <module>ok-shop-pay-consumer</module>
-        <module>ok-shop-pay-web</module>
     </modules>
 
 </project>

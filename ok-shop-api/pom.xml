@@ -7,16 +7,22 @@
         <artifactId>ok-shop</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
-    <artifactId>ok-shop-good</artifactId>
+    <artifactId>ok-shop-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ok-shop-good</name>
-    <packaging>pom</packaging>
-    <description>商品管理模块</description>
+    <name>ok-shop-api</name>
+    <description>对外提供API</description>
 
-    <modules>
-        <module>ok-shop-good-facade</module>
-        <module>ok-shop-good-service</module>
-        <module>ok-shop-good-web</module>
-    </modules>
+    <dependencies>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>

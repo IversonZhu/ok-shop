@@ -21,9 +21,19 @@ import java.io.Serializable;
 @AllArgsConstructor
 public class Result<T> implements Serializable {
 
+    private static final long serialVersionUID = 1106846796511708508L;
+
     private T data;
     private Integer code;
     private String msg;
+
+    public static <T> Result<T> succeed() {
+        return restResult(null, CodeEnum.SUCCESS.getCode(), null);
+    }
+
+    public static <T> Result<T> succeed(T data) {
+        return restResult(data, CodeEnum.SUCCESS.getCode(), null);
+    }
 
     public static <T> Result<T> succeed(String msg) {
         return restResult(null, CodeEnum.SUCCESS.getCode(), msg);
@@ -33,9 +43,7 @@ public class Result<T> implements Serializable {
         return restResult(data, CodeEnum.SUCCESS.getCode(), msg);
     }
 
-    public static <T> Result<T> succeed(T data) {
-        return restResult(data, CodeEnum.SUCCESS.getCode(), null);
-    }
+
 
     public static <T> Result<T> failed() {
         return restResult(null, CodeEnum.ERROR.getCode(), null);
